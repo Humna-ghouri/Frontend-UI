@@ -120,7 +120,7 @@ function CreateTask() {
         title: 'Success!',
         text: 'Task created successfully',
         icon: 'success'
-      }).then(() => navigate('/dashboard'));
+      }).then(() => navigate('/loan-calculator'));
 
     } catch (err) {
       console.error('Error:', err.response?.data || err.message);
