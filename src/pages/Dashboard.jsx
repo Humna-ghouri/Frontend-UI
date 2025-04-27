@@ -1,3 +1,32 @@
+// // src/pages/Dashboard.js
+// import React from 'react';
+// import { useNavigate } from 'react-router-dom';
+
+// const Dashboard = () => {
+//   const navigate = useNavigate();
+
+//   const handleCreateTask = () => {
+//     navigate('/create-task'); // Navigate to CreateTask page
+//   };
+
+//   return (
+//     <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md">
+//       <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
+//       <p>Welcome to your Dashboard!</p>
+
+//       <button
+//         onClick={handleCreateTask}
+//         className="mt-4 w-full bg-green-500 text-white py-2 rounded hover:bg-green-600"
+//       >
+//         Create New Task
+//       </button>
+//     </div>
+//   );
+// };
+
+// export default Dashboard;
+
+
 // import React, { useState, useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
 
@@ -12,7 +41,7 @@
 //   }, []);
 
 //   const handleCreateTask = () => {
-//     navigate('/loan-request'); // Navigate to CreateTask page
+//     navigate('/create-task'); // Navigate to CreateTask page
 //   };
 
 //   const handleDeleteTask = (taskId) => {
