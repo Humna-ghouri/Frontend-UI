@@ -107,11 +107,11 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Navbar from './components/Navbar';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
-import LoanCalculator from './pages/LoanCalculator';
-import LoanRequestForm from './pages/LoanRequestForm';
+import LoanCalculator from './pages/Dashborad';
+import LoanRequestForm from './pages/CreateTask';
 import SlipGeneration from './pages/SlipGeneration';
 import Home from './pages/Home';
-import AdminDashboard from './pages/AdminDashboard';
+// import AdminDashboard from './pages/AdminDashboard';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
